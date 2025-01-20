@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+/* shared styles  */
+
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+
+/* header styles */
+
+/* navbar styles */
+.nav-bar{
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+.logo{
+    gap: 11px;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-links{
+    gap: 32px;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    color:black;
+    text-decoration: none;
+}
