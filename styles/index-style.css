@@ -52,4 +52,67 @@
 .nav-link{
     color:black;
     text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.col1{
+    color: orange;
+}
+.col2{
+    color: skyblue;
+}
+.col3{
+    color: #05D4DF;
+}
+.col4{
+    color: #5D58EF;
+}
+.btn1{
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 197px;
+    height: 50px;
+    padding: 10px 60px;
+    background-color: orange;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+}
+/* banner styles */
+.banner{
+    max-width: 1158px;
+    margin: 0 auto;
+    margin-top: 18px;
+    gap: 50px;
+
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.l1{
+    color: orange;
+}
+.l2{
+    color: black;
+}
+.l3{
+    color: skyblue;
+}
+.banner-descripe{
+    font-size: 1.25rem;
+}
+.btn2{
+    font-size: 1rem;
+    font-weight: 700;
+    width: 197px;
+    height: 50px;
+    padding: 10px 41px;
+    background-color: black;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+}
+.heading{
+
 }
