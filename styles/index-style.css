@@ -220,6 +220,8 @@
 .story-title{
     text-align: center;
     margin-bottom: 81px;
+    font-size: 2.88rem;
+    font-weight: 700;
 }
 .story-container{
     gap: 19px;
@@ -231,6 +233,24 @@
     height: 177px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
+}
+.story1-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 39px;
+    padding-right: 39px;
+}
+.story1-descripe{
+    font-size: .99rem;
+    font-weight: 500;
+    color: #666666;
+    padding: 47.93px 68.86px 34.52px 38.35px;
+}
+.story2-title,.story3-title,.story4-title,.story5-title{
+    font-size: .99rem;
+    font-weight: 700;
+    padding-left: 39px;
+    padding-right: 39px;
 }
 .card-1{
     width: 540px;
@@ -256,8 +276,96 @@
     width: 290px;
     height: 301px;
 }
+.bt1,.bt2,.bt3,.bt4,.bt5{
+    font-size: .99rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #95B226;
+    width: 174px;
+    height: 38px;
+    border: none;
+    border-radius: 47px;
+    position: relative;
+    left: 38.35px;
+    top: -24px;
+}
+.bt1{
+    background-color: #3CD8E8;
+}
+.bt3{
+    background-color: #5D58F0;
+}
+.bt5{
+    width: 127;
+}
 .center{
     text-align: center;
+}
+
+/* footer styles */
+.footer{
+    background-color:violet;
+    height: 519px;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    justify-content:space-between;
+    margin: 0 auto;
+    height: 222px;
+    max-width: 1130px;
+    gap: 172px;
+}
+.kids{
+    width: 399px;
+
+}
+.foot-logo{
+    padding-bottom: 35px;
+    gap: 11px;
+}
+
+
+.footer-title{
+    font-size: 2.64rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.footer-descripe{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.about{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+.footer-links{
+}
+.foot-item{
+    list-style: none;
+    padding-bottom: 21px;
+
+}
+.foot-link{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.foot-icon{
+    gap: 10px;
+}
+.touch{
+    padding-bottom:  141px;
+}
+.keep{
+    font-size: 1.63rem;
+    font-weight: 700;
+    padding-bottom: 32px;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width:576px) {
