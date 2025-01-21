@@ -304,7 +304,7 @@
 
 /* footer styles */
 .footer{
-    background-color:violet;
+    background-color: rgb(211, 51, 51);
     height: 519px;
     display: flex;
     align-items: center;
@@ -463,6 +463,76 @@
     .story-container{
         margin-bottom: -145px;
     }
+    /* footer styles */
     
 
+    .footer{
+        background-color: rgb(211, 51, 51);
+        height: 642px;
+        /* display: flex; */
+        /* align-items: center; */
+    }
+    .foot{
+        flex-direction: column;
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+        margin-top:65px ;
+
+    }
+    .kids{
+        width: 358px;
+        height: 172px;
+    }
+    .foot-logo{
+        padding-bottom: 22px;
+        gap: 11px;
+    }
+    
+    
+    .footer-title{
+        font-size: 2.23rem;
+    }
+    .footer-descripe{
+        font-size: 1rem;
+    }
+    .About{
+        height: 188px;
+        margin-top:-29%;
+        margin-left: -55%;
+        margin-bottom: 0px;
+    }
+    .about{
+        font-size: 1.27rem;
+        font-weight: 600;
+        
+        padding-bottom: 32px;
+    }
+    .footer-links{
+    }
+    .foot-item{
+        list-style: none;
+        padding-bottom: 16px;
+    
+    }
+    .foot-link{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    .foot-icon{
+        gap: 10px;
+    }
+    .touch{
+        margin-top: -29%;
+        /* padding-bottom:  21px; */
+        margin-left: -43%;
+    }
+    .keep{
+        font-size: 1.38rem;
+        font-weight: 700;
+        padding-bottom: 32px;
+        color: #FFFFFF;
+    }
 }
